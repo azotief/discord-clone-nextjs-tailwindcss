@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import Header from "../components/Header";
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => (
   <div>
@@ -150,6 +151,7 @@ const Home: React.FC = () => (
         </div>
       </section>
     </main>
+    <Footer />
   </div>
 );
 
