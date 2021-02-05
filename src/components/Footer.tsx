@@ -9,7 +9,7 @@ export default function Footer() {
             Seu lugar para conversar
           </h2>
 
-          <div className="flex">
+          <div className="flex cursor-pointer">
             <Image
               src="/img/brasil.png"
               alt="Bandeira do Brasil"
@@ -25,7 +25,7 @@ export default function Footer() {
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                className="socialIcon-32i0_n"
+                className="socialIcon-32i0_n cursor-pointer"
               >
                 <path
                   fill="currentColor"
@@ -38,7 +38,7 @@ export default function Footer() {
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                className="socialIcon-32i0_n"
+                className="socialIcon-32i0_n cursor-pointer"
               >
                 <g fill="currentColor">
                   <path
@@ -64,7 +64,7 @@ export default function Footer() {
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                className="socialIcon-32i0_n"
+                className="socialIcon-32i0_n cursor-pointer"
               >
                 <path
                   fill="currentColor"
@@ -77,7 +77,7 @@ export default function Footer() {
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                className="socialIcon-32i0_n"
+                className="socialIcon-32i0_n cursor-pointer"
               >
                 <path
                   fill-rule="evenodd"
@@ -163,7 +163,7 @@ export default function Footer() {
           </g>
         </svg>
 
-        <button className="bg-indigo-400 text-white rounded-full px-4 py-2 transition-all hover:bg-gray-700 hover:shadow-xl">
+        <button className="bg-indigo-400 text-white rounded-full px-4 py-2 transition-all hover:bg-indigo-300 hover:shadow-xl">
           Abrir o Discord
         </button>
       </div>

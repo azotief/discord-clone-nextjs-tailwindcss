@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-blue-600 relative">
+    <header className="bg-blue-600 relative h-auto">
       <div className="max-w-6xl mx-auto px-2 py-6 flex justify-between items-center">
         <Link href="https://discord.com">
           <svg
@@ -43,7 +43,7 @@ const Header: React.FC = () => {
         </button>
       </div>
 
-      <div className="max-w-3xl flex flex-col items-center justify-center absolute inset-x-0 mx-auto gap-y-10 bottom-36">
+      <div className="max-w-3xl flex flex-col justify-center top-0 bottom-0 sm:items-start md:w-2/5 lg:w-4/5 lg:items-center absolute inset-x-0 mx-auto gap-y-10">
         <h1 className="text-white text-6xl font-black z-20">
           Seu lugar para conversar
         </h1>
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
           mais fácil conversar todo dia e se ver com mais frequência.
         </p>
 
-        <div className="flex gap-x-6 z-10">
+        <div className="flex gap-x-6 z-10 sm:flex-col lg:flex-row">
           <button className="bg-white text-xl text-gray-700 rounded-full px-10 py-4 transition-all hover:text-blue-500 hover:shadow-xl">
             Baixar para Windows
           </button>
@@ -64,27 +64,23 @@ const Header: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex relative mt-16">
-        <Image
+      <div className="flex items-end relative mt-16 -mx-96 justify-between">
+        <img
           src="/img/hero1.svg"
-          className="-bottom-5 -left-3/4 z-10"
+          className="h-3/4 -left-3/4 z-10 md:hidden lg:block"
           alt="Hero 1"
-          width={1000}
-          height={500}
         />
 
         <img
           src="/img/castles.svg"
-          className="bottom-0 absolute inset-x-0 mx-auto z-0"
+          className="bottom-0 right-0 left-40 absolute mx-auto z-0 sm:hidden lg:block"
           alt="Hero 1"
         />
 
-        <Image
+        <img
           src="/img/hero2.svg"
-          className="-right-3/4 z-10"
+          className="h-3/4 -right-3/4 z-10 sm:hidden md:block"
           alt="Hero 1"
-          width={1000}
-          height={500}
         />
       </div>
     </header>
