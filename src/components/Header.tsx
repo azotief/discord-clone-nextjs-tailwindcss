@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-blue-600 relative h-auto">
+    <header className="bg-blue-600 relative h-auto overflow-x-hidden">
       <div className="max-w-6xl mx-auto px-2 py-6 md:pb-52 lg:pb-0 flex justify-between items-center">
         <Link href="https://discord.com">
           <svg
