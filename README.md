@@ -4,7 +4,7 @@
 
 O objetivo deste projeto é aprender e fixar os conceitos das tecnologias **Next.js** e **Tailwind CSS**.
 
-![Header](./.github/images/header.png)
+![Demo](./.github/images/demo.gif)
 
 ## 🛠 Tecnologias
 
@@ -13,6 +13,7 @@ Tecnologias utilizadas no desenvolvimento deste projeto.
 - [ReactJS](https://pt-br.reactjs.org/)
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/docs/font-weight)
+- [Framer Motion](https://www.framer.com/motion/)
 ## 💻 Como rodar
 
 **Faça um clone deste repositório e acesse a pasta do projeto**
