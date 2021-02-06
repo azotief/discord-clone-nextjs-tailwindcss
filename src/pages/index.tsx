@@ -51,7 +51,7 @@ const Home: React.FC = () => {
       <Header />
       <main className="flex flex-col items-center">
         <motion.section
-          className="max-w-6xl flex sm:flex-col md:flex-row items-center justify-between py-24"
+          className="max-w-6xl flex flex-col md:flex-row items-center justify-between py-24"
           ref={ref1}
           transition={{ delay: 0, duration: 0.5 }}
           variants={{
@@ -68,7 +68,7 @@ const Home: React.FC = () => {
             height={450}
           />
 
-          <div className="flex flex-col max-w-sm ml-8">
+          <div className="flex flex-col max-w-sm ml-8 px-8">
             <p className="text-5xl font-black text-gray-800 leading-tight">
               Ambientes controlados por convites, com muito espaço pra conversar
             </p>
@@ -96,7 +96,7 @@ const Home: React.FC = () => {
 
         <section className="bg-gray-100 w-full">
           <motion.div
-            className="max-w-6xl flex sm:flex-col sm:flex-col-reverse md:flex-row items-center justify-between py-24 mx-auto"
+            className="max-w-6xl flex flex-col flex-col-reverse md:flex-row items-center justify-between py-24 mx-auto"
             ref={ref2}
             transition={{ delay: 0, duration: 0.5 }}
             variants={{
@@ -106,7 +106,7 @@ const Home: React.FC = () => {
             initial="hidden"
             animate={controls2}
           >
-            <div className="flex flex-col max-w-sm ml-8">
+            <div className="flex flex-col max-w-sm ml-8 px-8">
               <p className="text-5xl font-black text-gray-800 leading-tight">
                 Aqui é fácil se encontrar
               </p>
@@ -141,7 +141,7 @@ const Home: React.FC = () => {
         </svg>
 
         <motion.section
-          className="max-w-6xl flex sm:flex-col md:flex-row items-center justify-between py-24"
+          className="max-w-6xl flex flex-col md:flex-row items-center justify-between py-24"
           ref={ref3}
           transition={{ delay: 0, duration: 0.5 }}
           variants={{
@@ -158,7 +158,7 @@ const Home: React.FC = () => {
             height={450}
           />
 
-          <div className="flex flex-col max-w-sm ml-8">
+          <div className="flex flex-col max-w-sm ml-8 px-8">
             <p className="text-5xl font-black text-gray-800 leading-tight">
               Para poucos e para muitos
             </p>
@@ -196,7 +196,7 @@ const Home: React.FC = () => {
             initial="hidden"
             animate={controls4}
           >
-            <div className="flex flex-col text-center max-w-4xl ml-8">
+            <div className="flex flex-col text-center max-w-4xl ml-8 px-8">
               <p className="text-5xl font-black text-gray-800 leading-tight">
                 Tecnologia de conexão confiável
               </p>
@@ -215,7 +215,7 @@ const Home: React.FC = () => {
               height={750}
             />
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center px-8">
               <Image
                 src="/img/sparkles.svg"
                 alt="Sparkles"
