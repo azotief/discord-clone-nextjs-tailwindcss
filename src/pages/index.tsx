@@ -68,7 +68,7 @@ const Home: React.FC = () => {
             height={450}
           />
 
-          <div className="flex flex-col max-w-sm ml-8 px-8">
+          <div className="flex flex-col max-w-auto text-start mt-4 ml-6 md:max-w-sm md:ml-8 md:px-8">
             <p className="text-5xl font-black text-gray-800 leading-tight">
               Ambientes controlados por convites, com muito espaço pra conversar
             </p>
@@ -106,7 +106,7 @@ const Home: React.FC = () => {
             initial="hidden"
             animate={controls2}
           >
-            <div className="flex flex-col max-w-sm ml-8 px-8">
+            <div className="flex flex-col max-w-auto text-start mt-4 ml-6 md:max-w-sm md:ml-8 md:px-8">
               <p className="text-5xl font-black text-gray-800 leading-tight">
                 Aqui é fácil se encontrar
               </p>
@@ -158,7 +158,7 @@ const Home: React.FC = () => {
             height={450}
           />
 
-          <div className="flex flex-col max-w-sm ml-8 px-8">
+          <div className="flex flex-col max-w-auto text-start mt-4 ml-6 md:max-w-sm md:ml-8 md:px-8">
             <p className="text-5xl font-black text-gray-800 leading-tight">
               Para poucos e para muitos
             </p>
@@ -196,7 +196,7 @@ const Home: React.FC = () => {
             initial="hidden"
             animate={controls4}
           >
-            <div className="flex flex-col text-center max-w-4xl ml-8 px-8">
+            <div className="flex flex-col text-start ml-6 md:text-center md:ml-8 md:px-8 max-w-4xl">
               <p className="text-5xl font-black text-gray-800 leading-tight">
                 Tecnologia de conexão confiável
               </p>
@@ -215,7 +215,7 @@ const Home: React.FC = () => {
               height={750}
             />
 
-            <div className="flex flex-col items-center px-8">
+            <div className="flex flex-col items-center sm:w-full sm:px-6 md:w-auto lg:px-8">
               <Image
                 src="/img/sparkles.svg"
                 alt="Sparkles"
@@ -227,7 +227,18 @@ const Home: React.FC = () => {
                 Vamos começar sua jornada?
               </p>
 
-              <button className="bg-indigo-400 mt-8 text-xl text-white rounded-full px-10 py-4 transition-all hover:bg-indigo-300 hover:shadow-xl">
+              <button className="sm:w-full md:w-auto flex justify-center items-center bg-indigo-400 mt-8 text-xl text-white rounded-full px-10 py-4 transition-all hover:bg-indigo-300 hover:shadow-xl">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  className="icon-nuGd5b mr-2"
+                >
+                  <g fill="currentColor">
+                    <path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path>
+                    <path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path>
+                  </g>
+                </svg>
                 Baixar para Windows
               </button>
             </div>

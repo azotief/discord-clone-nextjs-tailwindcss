@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white px-12 pb-8">
-      <div className="max-w-6xl mx-auto flex justify-between pt-24 pb-8 border-b-2 border-indigo-400">
-        <div className="w-48 flex flex-col gap-y-4">
+      <div className="max-w-6xl mx-auto flex justify-between pt-24 pb-8 border-b-2 border-indigo-400 sm:flex-col md:flex-row">
+        <div className="sm:mb-14 w-48 flex flex-col gap-y-4">
           <h2 className="text-3xl font-black text-indigo-400">
             Seu lugar para conversar
           </h2>
@@ -89,12 +89,12 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-wrap">
-          <div className="px-8">
+        <div className="grid grid-rows-2 grid-cols-2 lg:flex lg:flex-nowrap">
+          <div className="sm:px-0 md:pr-2.5 lg:px-8 h-auto">
             <p className="text-indigo-400 mb-2 text-lg">Produto</p>
             <ul className="flex flex-col gap-y-2 text-lg">
               <li className="hover:underline cursor-pointer">Baixar</li>
-              <li className="hover:underline cursor-pointer">
+              <li className="hover:underline cursor-pointer sm:max-">
                 Por que usar o Discord?
               </li>
               <li className="hover:underline cursor-pointer">Inspiração</li>
@@ -104,7 +104,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="px-8">
+          <div className="sm:px-0 md:pl-6 lg:px-8 h-auto">
             <p className="text-indigo-400 text-lg">Empresa</p>
             <ul className="flex flex-col gap-y-2 text-lg">
               <li className="hover:underline cursor-pointer">Sobre</li>
@@ -117,7 +117,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="px-8">
+          <div className="sm:px-0 md:pr-2.5 lg:px-8 h-auto">
             <p className="text-indigo-400 text-lg">Recursos</p>
             <ul className="flex flex-col gap-y-2 text-lg">
               <li className="hover:underline cursor-pointer">Suporte</li>
@@ -136,7 +136,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="px-8">
+          <div className="sm:px-0 lg:px-8 h-auto">
             <p className="text-indigo-400 text-lg">Política</p>
             <ul className="flex flex-col gap-y-2 text-lg">
               <li className="hover:underline cursor-pointer">Termos</li>
