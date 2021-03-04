@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white px-12 pb-8">
-      <div className="max-w-6xl mx-auto flex justify-between pt-24 pb-8 border-b-2 border-indigo-400 flex-col md:flex-row">
+    <footer className="bg-gray-800 text-white pb-8 px-6">
+      <div className="max-w-6xl mx-auto flex justify-between pt-20 pb-8 border-b-2 border-indigo-400 flex-col md:flex-row">
         <div className="mb-14 w-48 flex flex-col gap-y-4">
-          <h2 className="text-3xl font-black text-indigo-400">
+          <h2 className="text-3xl w-full whitespace-nowrap md:whitespace-normal font-black text-indigo-400">
             Seu lugar para conversar
           </h2>
 
-          <div className="flex cursor-pointer">
+          <div className="flex cursor-pointer h-4 items-center">
             <Image
               src="/img/brasil.png"
               alt="Bandeira do Brasil"
@@ -17,6 +17,7 @@ export default function Footer() {
               height={16}
             />
             <p className="mx-2">Português do Brasil</p>
+            <img src="/img/arrow-down.svg" alt="Arrow Down"/>
           </div>
 
           <ul className="flex justify-between w-4/5">

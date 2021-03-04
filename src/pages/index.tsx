@@ -184,7 +184,7 @@ const Home: React.FC = () => {
           ></path>
         </svg>
 
-        <section className="bg-gray-100 w-full">
+        <section className="bg-gray-100 w-full px-6">
           <motion.div
             className="max-w-6xl flex flex-col items-center py-24 mx-auto"
             ref={ref4}
@@ -196,7 +196,7 @@ const Home: React.FC = () => {
             initial="hidden"
             animate={controls4}
           >
-            <div className="flex flex-col text-start ml-6 md:text-center md:ml-8 md:px-8 max-w-4xl">
+            <div className="flex flex-col text-start md:text-center md:ml-8 md:px-8 max-w-4xl">
               <p className="text-5xl font-black text-gray-800 leading-tight">
                 Tecnologia de conexão confiável
               </p>
@@ -215,11 +215,11 @@ const Home: React.FC = () => {
               height={750}
             />
 
-            <div className="flex flex-col items-center sm:w-full sm:px-6 md:w-auto lg:px-8">
+            <div className="flex flex-col items-center mt-12 w-full w-96 lg:px-8">
               <Image
                 src="/img/sparkles.svg"
                 alt="Sparkles"
-                width={570}
+                width={531}
                 height={100}
               />
 
@@ -227,7 +227,7 @@ const Home: React.FC = () => {
                 Vamos começar sua jornada?
               </p>
 
-              <button className="sm:w-full md:w-auto flex justify-center items-center bg-indigo-400 mt-8 text-xl text-white rounded-full px-10 py-4 transition-all hover:bg-indigo-300 hover:shadow-xl">
+              <button className="w-full md:w-auto flex justify-center items-center bg-indigo-400 mt-8 text-xl text-white rounded-full px-10 py-4 transition-all hover:bg-indigo-300 hover:shadow-xl">
                 <svg
                   width="24"
                   height="24"

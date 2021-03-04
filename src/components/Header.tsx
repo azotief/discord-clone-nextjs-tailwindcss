@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-blue-600 relative h-auto overflow-x-hidden px-12">
+    <header className="bg-blue-600 relative h-auto overflow-x-hidden px-6">
       <div className="max-w-6xl mx-auto px-2 py-6 md:pb-52 lg:pb-0 flex justify-between items-center">
         <Link href="https://discord.com">
           <svg
@@ -42,19 +42,30 @@ const Header: React.FC = () => {
         </button>
       </div>
 
-      <div className="max-w-3xl flex flex-col justify-center top-0 bottom-0 md:w-2/5 lg:w-4/5 md:absolute items-start xl:items-center xl:inset-x-0 mx-auto gap-y-10">
+      <div className="max-w-3xl flex flex-col justify-center top-0 bottom-0 md:w-2/5 lg:w-4/5 md:absolute items-start xl:items-center xl:inset-x-0 mx-auto gap-y-10 mt-14">
         <h1 className="text-white text-6xl font-black z-20">
           Seu lugar para conversar
         </h1>
 
-        <p className="text-white text-xl text-center z-20">
+        <p className="text-white text-xl text-start xl:text-center z-20">
           Não importa se você faz parte de um clube escolar, uma comunidade
           artística mundial ou só amigos querendo ficar de boa, o Discord torna
           mais fácil conversar todo dia e se ver com mais frequência.
         </p>
 
         <div className="flex gap-x-6 gap-y-6 z-30 flex-col lg:flex-row">
-          <button className="bg-white text-xl text-gray-700 rounded-full px-10 py-4 transition-all hover:text-blue-500 hover:shadow-xl">
+          <button className="flex items-center bg-white text-xl text-gray-700 rounded-full px-10 py-4 transition-all hover:text-blue-500 hover:shadow-xl">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              className="icon-nuGd5b mr-2"
+            >
+              <g fill="currentColor">
+                <path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path>
+                <path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path>
+              </g>
+            </svg>
             Baixar para Windows
           </button>
           <button className="bg-gray-800 text-xl text-white rounded-full px-10 py-4 transition-all hover:bg-gray-700 hover:shadow-xl">
@@ -63,22 +74,22 @@ const Header: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex items-end relative mt-16 -mx-96 justify-end xl:justify-between">
+      <div className="flex items-end relative mt-16 -mx-96 justify-start xl:justify-between">
         <img
           src="/img/hero1.svg"
-          className="h-3/4 -left-3/4 z-10 hidden xl:block"
+          className="h-3/4 -left-3/4 z-10 -ml-32"
           alt="Hero 1"
         />
 
         <img
           src="/img/castles.svg"
-          className="bottom-0 right-0 left-40 absolute mx-auto z-0 hidden xl:block"
+          className="bottom-0 right-0 left-40 absolute mx-auto z-0 xl:block"
           alt="Hero 1"
         />
 
         <img
           src="/img/hero2.svg"
-          className="h-3/4 -right-3/4 -mr-52 md:mr-0 z-10"
+          className="h-3/4 -right-3/4 -mr-52 md:mr-0 z-10 hidden xl:block"
           alt="Hero 1"
         />
       </div>
