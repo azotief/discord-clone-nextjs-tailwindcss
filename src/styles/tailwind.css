@@ -2,20 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+.animate-shift-right-3LU1WH {
+  animation: shift-right-3LU1WH 1200s linear forwards;
+}
+
+@keyframes shift-right-3LU1WH {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(8000px);
+    transform: translateX(8000px);
+  }
+}
+
 @layer utilities {
   @variants responsive {
     .h-banner {
       min-height: 39rem !important;
     }
-  
+
     .banner-gradient {
       background: linear-gradient(0deg, #7196ff -0.45%, #2a5ee8 71.18%);
     }
-    
+
     .ml-hero-left {
       margin-left: -81.25rem !important;
     }
-    
+
     .ml-hero-right {
       margin-left: 23rem !important;
     }
