@@ -38,13 +38,13 @@ const HeaderBanner: React.FC = () => {
       <div className="top-0 left-0 h-full w-full relative md:absolute">
         <img
           src="/img/hero1.svg"
-          className="select-none bottom-0 z-10 relative block min-size-hero-left transform -translate-x-72 md:hidden lg:-translate-x-0 lg:absolute lg:block lg:left-1/2 lg:ml-hero-left"
+          className="select-none bottom-0 z-10 relative block min-size-hero-left transform -translate-x-96 sm:-translate-x-72 md:hidden lg:-translate-x-0 lg:absolute lg:block lg:left-1/2 lg:ml-hero-left"
           alt="Hero 1"
         />
         
         <img
           src="/img/castles.svg"
-          className="select-none absolute bottom-0 block min-size-castles left-80 md:left-1/2 md:ml-castles-md lg:ml-castles-lg"
+          className="select-none absolute bottom-0 block min-size-castles left-56 sm:left-80 md:left-1/2 md:ml-castles-md lg:ml-castles-lg"
           alt="Hero 1"
         />
 

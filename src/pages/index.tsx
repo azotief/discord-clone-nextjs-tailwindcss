@@ -215,12 +215,11 @@ const Home: React.FC = () => {
               height={750}
             />
 
-            <div className="flex flex-col items-center mt-12 w-full w-96 lg:px-8">
-              <Image
+            <div className="flex flex-col items-center overflow-x-hidden mt-12 w-full w-96 lg:px-8">
+              <img
                 src="/img/sparkles.svg"
                 alt="Sparkles"
-                width={531}
-                height={100}
+                className="size-sparkles"
               />
 
               <p className="text-4xl -mt-12 font-black text-gray-800 leading-tight">

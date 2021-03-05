@@ -42,5 +42,12 @@
       min-width: 59.3rem !important;
       min-height: 31rem !important;
     }
+
+    .size-sparkles {
+      min-width: 33.1rem;
+      min-height: 6.25rem;
+      max-width: 33.1rem;
+      max-height: 6.25rem;
+    }
   }
 }
