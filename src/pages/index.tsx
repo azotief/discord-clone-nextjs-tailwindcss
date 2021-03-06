@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Image from "next/image";
+import Head from "next/head";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -48,6 +49,9 @@ const Home: React.FC = () => {
 
   return (
     <div>
+      <Head>
+        <title>DISCORD | Seu Lugar para Papear e Ficar De Boa</title>
+      </Head>
       <Header />
       <main className="flex flex-col items-center">
         <motion.section

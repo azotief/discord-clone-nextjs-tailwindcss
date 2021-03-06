@@ -31,6 +31,36 @@
   animation-delay: 180s;
 }
 
+/* .animate-open-menu {
+  animation: open-menu 0.5s;
+}
+
+.animate-close-menu {
+  animation: close-menu 0.5s;
+}
+
+@keyframes open-menu {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
+@keyframes close-menu {
+  0% {
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  to {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+} */
+
 @keyframes shift-right-3LU1WH {
   0% {
     -webkit-transform: translateX(0);

@@ -38,103 +38,103 @@ const HeaderBanner: React.FC = () => {
       <div className="top-0 left-0 h-full w-full relative md:absolute">
         <img
           src="/img/header-animations/cloud14.svg"
-          className="absolute -left-80"
+          className="select-none absolute -left-80"
           alt="Cloud 14"
         />
 
         <img
           src="/img/header-animations/cloud13.svg"
-          className="absolute -right-64"
+          className="select-none absolute -right-64"
           alt="Cloud 13"
         />
 
         <img
           src="/img/header-animations/cloud11.svg"
-          className="absolute bottom-0 left-44 animate-shift-right-3LU1WH-2400s"
+          className="select-none absolute bottom-0 left-44 animate-shift-right-3LU1WH-2400s"
           alt="Cloud 11"
         />
 
         <img
           src="/img/header-animations/cloud10.svg"
-          className="absolute bottom-0 right-10 animate-shift-right-3LU1WH-1600s"
+          className="select-none absolute bottom-0 right-10 animate-shift-right-3LU1WH-1600s"
           alt="Cloud 10"
         />
 
         <img
           src="/img/header-animations/cloud9.svg"
-          className="absolute -left-96 -ml-96 bottom-0 animate-shift-right-3LU1WH-1200s"
+          className="select-none absolute -left-96 -ml-96 bottom-0 animate-shift-right-3LU1WH-1200s"
           alt="Cloud 9"
         />
 
         <img
           src="/img/header-animations/cloud8.svg"
-          className="absolute -left-80 bottom-0 animate-shift-right-3LU1WH-685s"
+          className="select-none absolute -left-80 bottom-0 animate-shift-right-3LU1WH-685s"
           alt="Cloud 8"
         />
 
         <img
           src="/img/header-animations/cloud6.svg"
-          className="absolute left-96 ml-52 bottom-0 animate-shift-right-3LU1WH-1200s"
+          className="select-none absolute left-96 ml-52 bottom-0 animate-shift-right-3LU1WH-1200s"
           alt="Cloud 6"
         />
 
         <img
           src="/img/header-animations/cloud5.svg"
-          className="absolute -mr-60 mt-16 right-0 animate-shift-right-3LU1WH-1200s"
+          className="select-none absolute -mr-60 mt-16 right-0 animate-shift-right-3LU1WH-1200s"
           alt="Cloud 5"
         />
 
         <img
           src="/img/header-animations/cloud4.svg"
-          className="absolute right-40 top-40 mt-8 animate-shift-right-3LU1WH-2400s"
+          className="select-none absolute right-40 top-40 mt-8 animate-shift-right-3LU1WH-2400s"
           alt="Cloud 4"
         />
 
         <img
           src="/img/header-animations/cloud3.svg"
-          className="absolute -left-96 top-60 mt-8 animate-shift-right-3LU1WH-960s"
+          className="select-none absolute -left-96 top-60 mt-8 animate-shift-right-3LU1WH-960s"
           alt="Cloud 3"
         />
 
         <img
           src="/img/header-animations/cloud2.svg"
-          className="absolute left-96 ml-24 bottom-10 animate-shift-right-3LU1WH-1200s"
+          className="select-none absolute left-96 ml-24 bottom-10 animate-shift-right-3LU1WH-1200s"
           alt="Cloud 2"
         />
 
         <img
           src="/img/header-animations/cloud1.svg"
-          className="absolute right-1/3 mr-8 bottom-6 animate-shift-right-3LU1WH-1200s"
+          className="select-none absolute right-1/3 mr-8 bottom-6 animate-shift-right-3LU1WH-1200s"
           alt="Cloud 1"
         />
 
         <img
           src="/img/header-animations/balloon.svg"
-          className="absolute left-96 ml-44 -bottom-28 animate-hello-2FR9NG"
+          className="select-none absolute left-96 ml-44 -bottom-28 animate-hello-2FR9NG"
           alt="Balloon"
         />
 
         <img
           src="/img/header-animations/island.svg"
-          className="absolute -left-96 top-24 animate-shift-right-3LU1WH-2400s"
+          className="select-none absolute -left-96 top-24 animate-shift-right-3LU1WH-2400s"
           alt="Island"
         />
 
         <img
           src="/img/header-animations/island2.svg"
-          className="absolute right-72 top-20 animate-shift-right-3LU1WH-4800s"
+          className="select-none absolute right-72 top-20 animate-shift-right-3LU1WH-4800s"
           alt="Island 2"
         />
 
         <img
           src="/img/header-animations/star.svg"
-          className="absolute right-1/3 mr-8 top-24"
+          className="select-none absolute right-1/3 mr-8 top-24"
           alt="Star"
         />
 
         <img
           src="/img/header-animations/airship.svg"
-          className="absolute left-80 top-28 animate-shift-right-3LU1WH-1200s"
+          className="select-none absolute left-80 top-28 animate-shift-right-3LU1WH-1200s"
           alt="Air Ship"
         />
 

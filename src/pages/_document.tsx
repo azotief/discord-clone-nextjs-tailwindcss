@@ -6,7 +6,6 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="shortcut icon" href="favicon.ico" />
-          <title>DISCORD | Seu Lugar para Papear e Ficar De Boa</title>
         </Head>
         <body>
           <Main />

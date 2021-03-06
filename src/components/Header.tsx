@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import HeaderBanner from "./HeaderBanner";
+import MobileMenu from "./MobileMenu";
 
 const Header: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = useCallback(() => {
+    setIsMenuOpen(!isMenuOpen);
+  }, [isMenuOpen]);
+
+  useEffect(() => {
+    const bodyElement = document.querySelector('body');
+
+    if (isMenuOpen) {
+      bodyElement.classList.add('overflow-hidden');
+    } else {
+      bodyElement.classList.remove('overflow-hidden');
+    }
+  }, [isMenuOpen])
+
   return (
     <header className="banner-gradient relative h-banner overflow-hidden px-6 md:px-10">
       <div className="max-w-6xl mx-auto py-6 lg:pb-0 flex justify-between items-center">
@@ -38,12 +55,30 @@ const Header: React.FC = () => {
           </a>
         </nav>
 
-        <button className="text-gray-700 bg-white rounded-full px-4 py-2 transition-all hover:text-blue-500 hover:shadow-xl">
-          Entrar
-        </button>
+        <div className="flex z-20">
+          <button className="text-gray-700 bg-white rounded-full px-4 py-2 transition-all hover:text-blue-500 hover:shadow-xl">
+            Entrar
+          </button>
+          <button
+            type="button"
+            className="ml-4 block cursor-pointer lg:hidden"
+            onClick={toggleMenu}
+          >
+            <svg width="40" height="40" viewBox="0 0 40 40">
+              <path
+                fill="white"
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M33.3327 10H6.66602V15H33.3327V10ZM6.66602 18.3317H33.3327V23.3317H6.66602V18.3317ZM6.66602 26.665H33.3327V31.665H6.66602V26.665Z"
+              ></path>
+            </svg>
+          </button>
+        </div>
       </div>
 
       <HeaderBanner />
+
+      {isMenuOpen && <MobileMenu toggleMenu={toggleMenu} />}
     </header>
   );
 };
