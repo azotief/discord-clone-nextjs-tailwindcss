@@ -4,14 +4,14 @@ import HeaderBanner from "./HeaderBanner";
 
 const Header: React.FC = () => {
   return (
-    <header className="banner-gradient relative h-banner overflow-x-hidden px-6 md:px-10">
+    <header className="banner-gradient relative h-banner overflow-hidden px-6 md:px-10">
       <div className="max-w-6xl mx-auto py-6 lg:pb-0 flex justify-between items-center">
         <Link href="https://discord.com">
           <svg
             width="124"
             height="34"
             viewBox="0 0 124 34"
-            className="logo-3LF899 text-white cursor-pointer"
+            className="logo-3LF899 text-white cursor-pointer z-10"
           >
             <g fill="currentColor">
               <path d="M18.1558 14.297C17.1868 14.297 16.4218 15.13 16.4218 16.167C16.4218 17.204 17.2038 18.037 18.1558 18.037C19.1248 18.037 19.8898 17.204 19.8898 16.167C19.8898 15.13 19.1078 14.297 18.1558 14.297ZM11.9508 14.297C10.9818 14.297 10.2168 15.13 10.2168 16.167C10.2168 17.204 10.9988 18.037 11.9508 18.037C12.9198 18.037 13.6848 17.204 13.6848 16.167C13.7018 15.13 12.9198 14.297 11.9508 14.297Z"></path>
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
           </svg>
         </Link>
 
-        <nav className="gap-x-10 hidden lg:flex">
+        <nav className="gap-x-10 hidden lg:flex z-10">
           <a href="#" className="text-white font-bold hover:underline">
             Baixar
           </a>
