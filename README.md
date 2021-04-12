@@ -2,7 +2,7 @@
 
 ## ⁉ Sobre
 
-O objetivo deste projeto é aprender e fixar os conceitos das tecnologias **Next.js** e **Tailwind CSS**.
+O objetivo deste projeto é aprender e fixar os conceitos das tecnologias **Next.js**, **Tailwind CSS** e um pouco do **Framer Motion**.
 
 ![Demo](./.github/images/demo.gif)
 
@@ -12,6 +12,7 @@ Tecnologias utilizadas no desenvolvimento deste projeto.
 
 - [ReactJS](https://pt-br.reactjs.org/)
 - [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/docs/font-weight)
 - [Framer Motion](https://www.framer.com/motion/)
 ## 💻 Como rodar
@@ -19,7 +20,7 @@ Tecnologias utilizadas no desenvolvimento deste projeto.
 **Faça um clone deste repositório e acesse a pasta do projeto**
 
 ```bash
-$ git clone https://github.com/azotief/discord-clone-nextjs-tailwindcss.git && cd discord-clone-nextjs-tailwindcss
+$ git clone https://github.com/brfeitoza/discord-clone-nextjs-tailwindcss.git && cd discord-clone-nextjs-tailwindcss
 ```
 
 **Siga os passos a seguir**
