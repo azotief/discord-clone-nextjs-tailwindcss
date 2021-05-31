@@ -1,5 +1,3 @@
-import React from "react";
-
 const HeaderBanner: React.FC = () => {
   return (
     <>
@@ -15,7 +13,10 @@ const HeaderBanner: React.FC = () => {
         </p>
 
         <div className="flex flex-wrap gap-x-6 gap-y-6 z-30">
-          <button className="flex items-center w-max bg-white text-xl text-gray-700 rounded-full px-10 py-4 transition-all hover:text-blue-500 hover:shadow-xl">
+          <button
+            type="button"
+            className="flex items-center w-max bg-white text-xl text-gray-700 rounded-full px-10 py-4 transition-all hover:text-blue-500 hover:shadow-xl"
+          >
             <svg
               width="24"
               height="24"
@@ -23,13 +24,16 @@ const HeaderBanner: React.FC = () => {
               className="icon-nuGd5b mr-2"
             >
               <g fill="currentColor">
-                <path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path>
-                <path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path>
+                <path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z" />
+                <path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z" />
               </g>
             </svg>
             Baixar para Windows
           </button>
-          <button className="bg-gray-800 text-xl w-max text-white rounded-full px-10 py-4 transition-all hover:bg-gray-700 hover:shadow-xl">
+          <button
+            type="button"
+            className="bg-gray-800 text-xl w-max text-white rounded-full px-10 py-4 transition-all hover:bg-gray-700 hover:shadow-xl"
+          >
             Abra o Discord no seu navegador
           </button>
         </div>

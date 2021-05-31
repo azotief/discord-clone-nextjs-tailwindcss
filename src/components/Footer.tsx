@@ -1,9 +1,9 @@
-import Language from "./Language";
-import SocialMedia from "./SocialMedia";
-import FooterMenu from "./FooterMenu";
-import FooterBottom from "./FooterBottom";
+import Language from './Language';
+import SocialMedia from './SocialMedia';
+import FooterMenu from './FooterMenu';
+import FooterBottom from './FooterBottom';
 
-export default function Footer() {
+export default function Footer(): JSX.Element {
   return (
     <footer className="bg-gray-800 text-white pb-8 px-6">
       <div className="max-w-6xl mx-auto flex justify-between pt-20 pb-8 border-b-2 border-indigo-400 flex-col md:flex-row">
@@ -11,7 +11,7 @@ export default function Footer() {
           <h2 className="text-3xl w-full whitespace-nowrap md:whitespace-normal font-black text-indigo-400">
             Seu lugar para conversar
           </h2>
-          
+
           <Language />
           <SocialMedia />
         </div>

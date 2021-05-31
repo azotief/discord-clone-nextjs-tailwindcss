@@ -1,5 +1,3 @@
-import React from "react";
-
 const FooterMenu: React.FC = () => {
   return (
     <div className="grid grid-rows-1 grid-cols-2 lg:flex lg:flex-nowrap">
