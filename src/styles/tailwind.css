@@ -2,57 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.animate-shift-right-3LU1WH-685s {
-  animation: shift-right-3LU1WH 685s linear forwards;
-}
-
-.animate-shift-right-3LU1WH-960s {
-  animation: shift-right-3LU1WH 960s linear forwards;
-}
-
-.animate-shift-right-3LU1WH-1200s {
-  animation: shift-right-3LU1WH 1200s linear forwards;
-}
-
-.animate-shift-right-3LU1WH-1600s {
-  animation: shift-right-3LU1WH 1600s linear forwards;
-}
-
-.animate-shift-right-3LU1WH-2400s {
-  animation: shift-right-3LU1WH 2400s linear forwards;
-}
-
-.animate-shift-right-3LU1WH-4800s {
-  animation: shift-right-3LU1WH 4800s linear forwards;
-}
-
-.animate-hello-2FR9NG {
-  animation: hello-2FR9NG 100s linear forwards;
-  animation-delay: 180s;
-}
-
-@keyframes shift-right-3LU1WH {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  to {
-    -webkit-transform: translateX(8000px);
-    transform: translateX(8000px);
-  }
-}
-
-@keyframes hello-2FR9NG {
-	0% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0)
-	}
-	to {
-		-webkit-transform: translateY(-2000px);
-		transform: translateY(-2000px)
-	}
-}
-
 @layer utilities {
   @variants responsive {
     .h-banner {

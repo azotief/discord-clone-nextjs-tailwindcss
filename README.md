@@ -1,12 +1,12 @@
 # UI Clone - Discord Web
 
-## ⁉ Sobre
+## Sobre
 
 O objetivo deste projeto é aprender e fixar os conceitos das tecnologias **Next.js**, **Tailwind CSS** e um pouco do **Framer Motion**.
 
 ![Demo](./.github/images/demo.gif)
 
-## 🛠 Tecnologias
+## Tecnologias
 
 Tecnologias utilizadas no desenvolvimento deste projeto.
 
@@ -15,7 +15,8 @@ Tecnologias utilizadas no desenvolvimento deste projeto.
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/docs/font-weight)
 - [Framer Motion](https://www.framer.com/motion/)
-## 💻 Como rodar
+
+## Como rodar
 
 **Faça um clone deste repositório e acesse a pasta do projeto**
 
@@ -35,7 +36,7 @@ $ yarn dev
 # Pronto! O projeto está rodando no endereço: http://localhost:3000.
 ```
 
-## 📝 Licença
+## Licença
 
 Este projeto está licenciado sob a Licença **MIT** - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
 
