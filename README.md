@@ -13,8 +13,13 @@ Tecnologias utilizadas no desenvolvimento deste projeto.
 - [ReactJS](https://pt-br.reactjs.org/)
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/docs/font-weight)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
+- [Husky](https://www.npmjs.com/package/husky)
+- [Commitlint](https://github.com/conventional-changelog/commitlint)
 
 ## Como rodar
 
